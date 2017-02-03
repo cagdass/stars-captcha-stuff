@@ -3,15 +3,6 @@ import requests
 import urllib2
 import sys
 
-# url = "https://stars.bilkent.edu.tr/homepage/captcha.php"
-# r = requests.get(url)
-# # print r.text
-# cookie_ = r.headers['Set-Cookie'].split(';')[0].split('=')
-# # cookie = {cookie_[0]: cookie_[1]}
-# c = 'erh8mir0g5n4dqgusr9ku71u00'
-# cookie = {cookie_[0]: c}
-# print cookie
-
 times = 100
 
 stamp = '1005297121'
