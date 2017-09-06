@@ -1,5 +1,15 @@
 # Stars Captcha Stuff
 
+## Before getting started
+
+This project is incomplete, I have to return a session with cookies after sending the correct captcha. However, if you're in a hurry, just fire your browser go to any page in Stars that requires captcha before letting you in, enter the captcha and check your cookies. 
+
+Use the key **PHPSESSID** and its value found to send as cookies in your application and it'll work like a charm.
+
+![alt text](https://i.imgur.com/Sv7FCKW.png "PHPSESSID")
+
+## Getting started
+
 Captcha solver for Bilkent's Stars
 
 **Help needed**: Although the captcha is correctly read, there is probably an issue with sending it as a string. The reasons may be related to the cookies, user-agent or some other dipshit. This part remains unsolved.
